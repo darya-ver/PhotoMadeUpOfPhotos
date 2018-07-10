@@ -18,7 +18,7 @@ def show_img(im):
 #  * filename: string, name to save file as
 def save_img(im, filename):
     im.save(filename, "jpeg")
-    show_img(im)
+    #show_img(im)
 
 # Return a new Image, with Obamicon filter applied.
 #  * im: Image to be filtered
